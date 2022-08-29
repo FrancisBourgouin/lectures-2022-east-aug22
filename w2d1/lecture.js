@@ -27,3 +27,14 @@ const drinkBeverage = require("./drinkBeverage");
 // console.log(bob);
 const mug = { amountInMl: 500, content: "tea" };
 drinkBeverage(mug);
+
+const someFunction = () => {
+  const get = () => {
+    // ...
+  };
+  const set = () => {
+    // ...
+  };
+
+  return { get, set };
+};
