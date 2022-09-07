@@ -1,0 +1,21 @@
+<%- include('partials/_head.ejs') %>
+
+
+	<section>
+		
+			<form action="/register" method="POST" autoComplete="off">
+				<label for="email">Email address:</label>
+				<input type="email" name="email" placeholder="Enter your email" required>
+				<label for="name">Name:</label>
+				<input type="text" name="name" placeholder="Enter your name">
+				<label for="imagePath">imagePath:</label>
+				<input type="text" name="imagePath" placeholder="Enter your imagePath">
+				<label for="password">Password:</label>
+				<input type="password" name="password" placeholder="Enter your password">
+				<button type="submit">Register the vault!</button>
+			</form>
+
+	</section>
+	</body>
+
+	</html>
